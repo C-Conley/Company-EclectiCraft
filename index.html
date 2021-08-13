@@ -7,11 +7,12 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="resources/css/normalize.css">
+  <link rel="stylesheet" href="resources/css/styles.css">
   </head>
   
   <body>
+
     <header class="box">
       <img class="logo" src="resources/images/Logo.png" alt="ElectiCraft Logo">
       <nav>
@@ -26,21 +27,23 @@
             <a href="#contact">Secret Lair</a>
           </li>
           <li>
-            <a href="#no-touch">Don't Touch</a>
+            <a href="#blog">
+              <button>Don't Touch</button>
+            </a>
           </li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section class="box banner">
+
+      <article class="box banner">
         <h4>Encouraging nerds of all classes to let their geek flags fly</h4>
-      </section>
+      </article>
 
       <section class="box" id="products">
         <h2>The Merch</h2>
         <h4>IT'S DANGEROUS TO GO ALONE! TAKE THIS.</h4>
-
         <div class="product-img-box">
           <figure class="product">
             <img src="resources/images/Decor.jpg" alt="Video Game Decor">
@@ -63,14 +66,48 @@
             <figcaption>Party Kits</figcaption>
           </figure>
         </div>
-
       </section>
+
+      <section class="box" id="team">
         <h2>The Party</h2>
-      <section>
-
+        <div class="team-img-box">
+          <section class="teammate">
+            <h3>Binx: The Paladin</h3>
+            <img src="resources/images/fakeBinx.jpg" alt="Black Cat">
+            <p>Doesn't mess around with all that hocus pocus. Enjoys running amok.</p>
+          </section>
+          <section class="teammate">
+            <h3>Bradley: The Sorcerer</h3>
+            <img src="resources/images/fakeBradley.jpg" alt="Bradley">
+            <p>Likes peaches and cereal killers.</p>
+          </section>
+          <section class="teammate">
+            <h3>Casey: The Mystic</h3>
+            <img src="resources/images/fakeMe.jpg" alt="Casey">
+            <p>An eclectic eccentric.</p>
+          </section>
+          <section class="teammate">
+            <h3>Yuffie: The Rogue</h3>
+            <img src="resources/images/fakeYuffie.jpg" alt="Black Dog">
+            <p>Best friends with a cat. Has been known to steal materia and pork chops.</p>
+          </section>
+        </div>
       </section>
+
     </main>
-    <footer></footer>
+
+    <footer class="box" id="contact">
+      <h2>Where to Find Us</h2>
+      <p>(510) 339-7022</p>
+      <p>216 14th Ave N</p>
+      <p>Saint Petersburg, Florida 33701</p>
+      <figure class="blog" id="blog">
+        <a href="#">
+          <img src="resources/images/nerdSkeleton.jpg">
+        </a>
+      </figure>
+    </footer>
+
   </body>
 
 </html>
