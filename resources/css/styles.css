@@ -20,6 +20,15 @@ h3 {
     color: #e71d35b0;
 }
 
+a {
+    text-decoration: none;
+    color: #2ec4b6;
+}
+
+a:hover {
+    color: #ff9f1c;
+}
+
 .box {
     width: 100%;
     display: flex;
@@ -51,13 +60,13 @@ h3 {
     padding: 0px;
 }
 
-a {
+.navigation a {
     text-decoration: none;
     color: #ff9f1c;
     font-weight: bold;
 }
 
-a:hover {
+.navigation a:hover {
     color: #2ec4b6;
 }
 
