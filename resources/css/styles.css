@@ -1,3 +1,156 @@
 body {
-    background-color: rgba(126, 223, 0, 0.637);
+    background-color: #011627;
     font-family:'Courier New', Courier, monospace;
+    font-size: 22px;
+    text-align: center;
+    color: #2ec4b6;
+}
+e71d36
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #ff9f1c;
+}
+h3 {
+    color: #e71d35b0;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #011627;
+    height: 100px;
+    top: 0px;
+    z-index: 10;
+    border-bottom: 1px solid #ff9f1c;
+    position: sticky;
+}
+
+.logo {
+    height: 35px;
+    margin-top: 20px;
+}
+
+.navigation {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #ff9f1c;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2ec4b6;
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        margin-left: 10px;
+        margin-top: unset;
+    }
+
+    .navigation {
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-right: 10px;
+        font-size: .9em;
+    }
+
+    .banner h4 {
+        font-size: .9em;
+    }
+    
+}
+
+.banner {
+    background-image: url(../images/innerChild.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    flex-flow: column wrap;
+}
+
+.banner h4 {
+    background-color: #011627d3;
+    padding: 15px 30px;
+    width: 100%;
+}
+
+#products, #team, #contact {
+    margin-top: 50px;
+}
+
+.product-img-box {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.product img {
+    height: 250px;
+    width: 200px;
+    border-radius: 40px;
+}
+
+.team-img-box {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.teammate {
+    flex-flow: column wrap;
+    width: 300px;
+}
+
+.teammate img {
+    height: 250px;
+    width: 200px
+}
+
+footer p {
+    text-align: left;
+    margin: 0px 30px;
+}
+
+.footer {
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    font-size: .9em;
+}
+
+.blog {
+    margin-right: 30px;
+}
+
+.blog img {
+    height: 100px;
+}
